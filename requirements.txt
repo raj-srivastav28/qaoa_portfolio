@@ -1,0 +1,13 @@
+# Pin EVERY package you use to an exact version (package==x.y.z).
+# Regenerate for your own environment with:  pip freeze > requirements.txt
+# These are the versions this scaffold was verified with (Python 3.12).
+
+numpy
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.11.2
+yfinance==1.7.0
+qiskit==2.6.0
+qiskit-aer==0.17.2
+qiskit-ibm-runtime==0.50.0
+pytest==9.1.1
