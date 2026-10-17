@@ -1,0 +1,19 @@
+# --- secrets (NEVER commit) ---
+.env
+*.token
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# --- editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- outputs that are regenerated but safe to keep ---
+# figures/ and results.json and data/prices.csv are COMMITTED on purpose:
+# the judges should see the main result and the repo must run offline.
